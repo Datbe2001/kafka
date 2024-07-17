@@ -1,0 +1,84 @@
+repo_name: Datbe2001/kafka
+report_id: 85762df408a4c9346d9ef529f3a7a33f
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-17T14:58:26+00:00'
+requested_by: Datbe2001
+provider: github
+branch: develop
+detected_tools_count: 6
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Datbe2001/kafka
+  detection_source: Repo Metadata
+- name: Kafka
+  description: Distributed, fault tolerant, high throughput pub-sub messaging system
+  website_url: http://kafka.apache.org/
+  version: '2.13'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1063/kazUJooF_400x400.jpg
+  detection_source_url: https://github.com/Datbe2001/kafka/blob/develop/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Datbe2001
+  last_updated_on: 2024-07-16 06:43:58.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Datbe2001/kafka
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Datbe2001/kafka/blob/develop/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Datbe2001
+  last_updated_on: 2024-07-16 06:43:58.000000000 Z
+- name: Zookeeper
+  description: Because coordinating distributed systems is a Zoo
+  website_url: http://zookeeper.apache.org/
+  version: 3.6.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Open Source Service Discovery
+  image_url: https://img.stackshare.io/service/1528/apache-zookeeper.png
+  detection_source_url: https://github.com/Datbe2001/kafka/blob/develop/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Datbe2001
+  last_updated_on: 2024-07-16 06:43:58.000000000 Z
+- name: kafka-python
+  description: Pure Python client for Apache Kafka
+  package_url: https://pypi.org/project/kafka-python
+  version: 2.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20047/default_b0b684477aefb2da4c92a4bafd91d26e16511cd1.png
+  detection_source_url: https://github.com/Datbe2001/kafka/blob/develop/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Datbe2001
+  last_updated_on: 2024-07-16 06:43:58.000000000 Z
